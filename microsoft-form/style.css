@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://st3.depositphotos.com/16527934/37460/i/450/depositphotos_374609428-stock-photo-translucent-honeycomb-gradient-blue-sky.jpg');
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    background-color: #ffffff;
+    background-image: url("https://st3.depositphotos.com/16527934/37460/i/450/depositphotos_374609428-stock-photo-translucent-honeycomb-gradient-blue-sky.jpg");
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-header h1 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  .form-footer {
+    text-align: center;
+  }
+  
+  .form-footer button {
+    background-color: #0078d4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form-footer button:hover {
+    background-color: #3599e5;
+  }
+  
+  .success-message {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+  }
+  
